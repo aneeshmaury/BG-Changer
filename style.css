@@ -1,0 +1,30 @@
+*{
+    margin : 0;
+    padding:0;
+}
+.container{
+    background-color: rgb(175, 175, 189);
+    width: 500px;
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+margin: 500px auto;
+}
+@media (max-width:500px) {
+    .container{
+        background-color: rgb(175, 175, 189);
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto;
+        width: 100px;
+        height: 350px;
+    
+        
+    }
+  
+
+  
+   
+
+}

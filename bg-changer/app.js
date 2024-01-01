@@ -7,6 +7,7 @@
             let greenBtn = document.querySelector('.greenbtn');
             let blackBtn = document.querySelector('.blackbtn');
             let orangeBtn = document.querySelector('.orangebtn');
+            let pinkBtn =document.querySelector('.pinkbtn');
 
             blueBtn.addEventListener("click", function () {
                 bodyColor.style.backgroundColor = "blue";
@@ -30,6 +31,9 @@
 
             orangeBtn.addEventListener("click", function () {
                 bodyColor.style.backgroundColor = "orange";
+            });
+            pinkBtn.addEventListener("click", function () {
+                bodyColor.style.backgroundColor = "pink";
             });
         });
     

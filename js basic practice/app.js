@@ -45,3 +45,23 @@ a.unshift(3)
 console.log(a)//remove first element and add new element
 a.reverse()
 console.log(a)//it is used to reverse array 
+
+let number = prompt("enter any number");
+let ans= new Promise((res,rej)=>{
+    if(number<5){
+        return res();
+    }
+    else{
+        return rej();
+    }
+})
+ans.then(()=>{
+    console.log("its resolve");
+});
+ans.catch(()=>{
+    console.log("rej");
+})
+
+setInterval(() => {
+    console.log("3sec")
+}, 3000);
